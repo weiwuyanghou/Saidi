@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="?attr/actionBarSize">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        tools:ignore="MissingConstraints">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv5"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:src=""
+                android:layout_alignParentTop="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv5"
+                android:text="赛迪养老机构管理应用欢迎您的使用！"
+                android:layout_marginTop="35dp"
+                android:textSize="30dp"
+                android:gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_below="@+id/iv5"
+                android:textSize="25dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginLeft="10dp"
+                android:text="增加"
+                />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_below="@+id/iv5"
+                android:layout_marginTop="200dp"
+                android:textSize="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:text="管理" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

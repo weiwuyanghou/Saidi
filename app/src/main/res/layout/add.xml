@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+    <FrameLayout
+        android:id="@+id/frame1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        tools:ignore="MissingConstraints">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingConstraints">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加老人信息"
+        android:layout_marginTop="35dp"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_alignTop="@+id/textView3"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="编号："
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_above="@+id/textView4"
+        android:layout_marginBottom="25dp"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_alignTop="@+id/textView4"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名："
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_above="@id/textView5"
+        android:layout_marginBottom="25dp"
+        tools:ignore="MissingConstraints" />
+<EditText
+    android:id="@+id/et3"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/textView5"
+    android:layout_alignTop="@+id/textView5"/>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性别："
+        android:layout_marginLeft="20dp"
+        android:layout_above="@+id/textView6"
+        android:textSize="20dp"
+        android:layout_marginBottom="25dp"
+        tools:ignore="MissingConstraints" />
+<EditText
+    android:id="@+id/et4"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/textView6"
+    android:layout_alignTop="@+id/textView6"/>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:text="年龄："
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+<EditText
+    android:id="@+id/et5"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/textView7"
+    android:layout_alignTop="@+id/textView7"/>
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="住址："
+        tools:ignore="MissingConstraints" />
+<EditText
+    android:id="@+id/et6"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/textView8"
+    android:layout_alignTop="@+id/textView8"/>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:text="电话号码："
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/et7"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView9"
+        android:layout_alignTop="@+id/textView9"/>
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:text="缴费金额："
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/abt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et7"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:text="提交"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et7"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:text="取消"/>
+</RelativeLayout>
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>
